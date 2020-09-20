@@ -1,15 +1,46 @@
 {
-  "name": "@koopjs/provider-github",
-  "description": "Github provider for Koop",
-  "version": "3.0.0",
-  "author": "Chris Helm",
+  "_args": [
+    [
+      "@koopjs/provider-github@3.0.0",
+      "C:\\Users\\HeL1\\Desktop\\LeiHe\\github-dev\\koop-app"
+    ]
+  ],
+  "_from": "@koopjs/provider-github@3.0.0",
+  "_id": "@koopjs/provider-github@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Ark3Nl9bicdy1DsJ6JQ8eJXnstdIFJamqRqLUjh80ldvCWeDVJN7tdlE9whf7PXZsa4h83czuucflT17hS7IcA==",
+  "_location": "/@koopjs/provider-github",
+  "_phantomChildren": {
+    "json5": "1.0.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@koopjs/provider-github@3.0.0",
+    "name": "@koopjs/provider-github",
+    "escapedName": "@koopjs%2fprovider-github",
+    "scope": "@koopjs",
+    "rawSpec": "3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@koopjs/provider-github/-/provider-github-3.0.0.tgz",
+  "_spec": "3.0.0",
+  "_where": "C:\\Users\\HeL1\\Desktop\\LeiHe\\github-dev\\koop-app",
+  "author": {
+    "name": "Chris Helm"
+  },
   "bugs": {
     "url": "https://github.com/koopjs/koop-provider-github/issues"
   },
   "dependencies": {
-    "config": "^3.0.1",
+    "config": "^2.0.1",
     "geohub": "^1.0.4"
   },
+  "description": "Github provider for Koop",
   "devDependencies": {
     "nock": "^10.0.2",
     "standard": "^12.0.1",
@@ -29,11 +60,13 @@
   ],
   "license": "Apache-2.0",
   "main": "index.js",
+  "name": "@koopjs/provider-github",
   "repository": {
     "type": "git",
-    "url": "git@github.com:koopjs/koop-provider-github.git"
+    "url": "git+ssh://git@github.com/koopjs/koop-provider-github.git"
   },
   "scripts": {
     "test": "standard && tape test/model-test.js | tap-spec"
-  }
+  },
+  "version": "3.0.0"
 }
