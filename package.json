@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "config": "^2.0.1",
-    "geohub": "^1.0.4"
+    "geohub": "confluenceONE/geohub#cw-branch"
   },
   "description": "Github provider for Koop",
   "devDependencies": {
